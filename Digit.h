@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-typedef pair<int, int> pii;
 
 namespace digit {
 	int index = 0;
@@ -41,21 +40,4 @@ namespace digit {
 		int nex = b - a + 1;
 		return myrand() % nex + a;
 	}
-}
-using namespace digit;
-
-struct graph {
-	int e[10005];
-};
-namespace Graph {
-	int n, m;
-	int e[10005];
-	map<pii, bool> mp;
-	
-};
-using namespace Graph;
-
-int main() {
-	cout << random(1, 1000000000) << endl;
-	return 0;
 }
