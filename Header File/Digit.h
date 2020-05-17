@@ -36,7 +36,7 @@ namespace digit {
 		return y;
 	}
 	
-	int random (int a, int b) {
+	int randint (int a, int b) {
 		int nex = b - a + 1;
 		return myrand() % nex + a;
 	}
